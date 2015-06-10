@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .thick {
+          font-weight: bold;
+      }
+      .limit-width {
+      min-width: 0;
+      width: auto;
+      display: inline;
+      }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fibonacci</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <body>
+
+      <div class="container-fluid">
+        <div class="col-md-10">
+          <h1>Yleistetty fibonaccin luvut-laskin</h1>
+
+          <input type="text" id="amount"></input><br/><br/>
+
+          <input type="text" id="seedValues"></input><br/><br/>
+
+          <input type="button" id="calculate" value="Laske"></input><br/><br/>
+          <div class="col-md-5">
+            <pre id="result" class="thick"></pre>
+          </div>
+
+        </div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="fibonacci.js"></script>
+    </body>
+  </head>
+</html>
